@@ -1,0 +1,32 @@
+{
+    "name": "unknown-dark",
+    "displayName": "Unknown Dark",
+    "description": "Unknown Devices official theme?",
+    "version": "1.0.0",
+    "publisher" : "UnknownDevices",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/unwndevices/unknown-dark-vscode-theme"
+    },
+    "keywords" : [
+        "theme",
+        "dark theme"
+        "unknown",
+        "devices"
+    ],
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Unknown Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Unknown Dark-color-theme.json"
+            }
+        ]
+    }
+}
